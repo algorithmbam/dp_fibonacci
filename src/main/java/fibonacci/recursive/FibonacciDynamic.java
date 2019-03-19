@@ -2,7 +2,7 @@ package fibonacci.recursive;
 
 public class FibonacciDynamic {
 
-	private int dp[]= new int[100];
+	private int[] dp= new int[100];
 	
 	public int solve(int index) {
 		
