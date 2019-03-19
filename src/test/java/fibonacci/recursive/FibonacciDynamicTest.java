@@ -1,20 +1,20 @@
 package fibonacci.recursive;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
 
 import org.junit.Before;
 import org.junit.Test;
 
-public class FibonacciRecursivceTest {
+public class FibonacciDynamicTest {
 
-	private FibonacciRecursive fibonacci;
+	private FibonacciDynamic fibonacci;
 	long startTime;
 	long endTime;
 	
 	@Before
 	public void setUp() {
-		fibonacci= new FibonacciRecursive(); 
+		fibonacci= new FibonacciDynamic(); 
 	}
 	
 	@Test
@@ -119,66 +119,6 @@ public class FibonacciRecursivceTest {
 		
 		// assert
 		assertThat(answer, is(55));
-	}
-	
-	@Test
-	public void 입력값이_13일떄는_233리턴() {
-
-		// act
-		checkStartTime();
-		
-		int answer= fibonacci.solve(13);
-		
-		checkEndTime();
-		printElapsedTime();
-		
-		// assert
-		assertThat(answer, is(233));
-	}
-	
-	@Test
-	public void 입력값이_15일떄는_610리턴() {
-
-		// act
-		checkStartTime();
-		
-		int answer= fibonacci.solve(15);
-		
-		checkEndTime();
-		printElapsedTime();
-		
-		// assert
-		assertThat(answer, is(610));
-	}
-	
-	@Test
-	public void 입력값이_20일떄는_6765리턴() {
-
-		// act
-		checkStartTime();
-		
-		int answer= fibonacci.solve(20);
-		
-		checkEndTime();
-		printElapsedTime();
-		
-		// assert
-		assertThat(answer, is(6765));
-	}
-	
-	@Test
-	public void 입력값이_30일떄는_832040리턴() {
-
-		// act
-		checkStartTime();
-		
-		int answer= fibonacci.solve(30);
-		
-		checkEndTime();
-		printElapsedTime();
-		
-		// assert
-		assertThat(answer, is(832040));
 	}
 	
 	@Test
