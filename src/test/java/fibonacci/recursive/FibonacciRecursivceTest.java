@@ -18,7 +18,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_1ÀÏ‹š´Â_1¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_1ì¼ë–„ëŠ”_1ë¦¬í„´() {
 		// act
 		checkStartTime();
 		
@@ -32,7 +32,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_2ÀÏ‹š´Â_1¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_2ì¼ë–„ëŠ”_1ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -47,7 +47,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_3ÀÏ‹š´Â_2¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_3ì¼ë–„ëŠ”_2ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -62,7 +62,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_4ÀÏ‹š´Â_3¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_4ì¼ë–„ëŠ”_3ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -77,7 +77,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_5ÀÏ‹š´Â_5¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_5ì¼ë–„ëŠ”_5ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -92,7 +92,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_6ÀÏ‹š´Â_8¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_6ì¼ë–„ëŠ”_8ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -107,7 +107,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_10ÀÏ‹š´Â_55¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_10ì¼ë–„ëŠ”_55ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -122,7 +122,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_13ÀÏ‹š´Â_233¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_13ì¼ë–„ëŠ”_233ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -137,7 +137,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_15ÀÏ‹š´Â_610¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_15ì¼ë–„ëŠ”_610ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -152,7 +152,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_20ÀÏ‹š´Â_6765¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_20ì¼ë–„ëŠ”_6765ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -167,7 +167,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_30ÀÏ‹š´Â_832040¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_30ì¼ë–„ëŠ”_832040ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -182,7 +182,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test
-	public void ÀÔ·Â°ªÀÌ_55ÀÏ‹š´Â_2144908973¸®ÅÏ() {
+	public void ì…ë ¥ê°’ì´_55ì¼ë–„ëŠ”_2144908973ë¦¬í„´() {
 
 		// act
 		checkStartTime();
@@ -197,7 +197,7 @@ public class FibonacciRecursivceTest {
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
-	public void ÀÔ·Â°ªÀÌ_0ÀÏ‹š´Â_illegalArgumentExcecptionÃ³¸®() {
+	public void ì…ë ¥ê°’ì´_0ì¼ë–„ëŠ”_illegalArgumentExcecptionì²˜ë¦¬() {
 
 		// act
 		checkStartTime();
