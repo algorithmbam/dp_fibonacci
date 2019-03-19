@@ -1,4 +1,4 @@
-package fibonacci.recursive;
+package fibonacci.dynamic;
 
 public class FibonacciDynamic {
 
